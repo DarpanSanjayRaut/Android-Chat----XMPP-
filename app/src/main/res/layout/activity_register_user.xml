@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pleximus.pet_app.ui.register.RegisterUserActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_small">
+
+        <TextView
+            android:id="@+id/lbl_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/padding_small"
+            android:text="REGISTER NOW"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_below="@+id/lbl_reg"
+            android:ems="10"
+            android:text="First Name" />
+
+        <EditText
+            android:id="@+id/et_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/et_username"
+            android:ems="10"
+            android:text="Last Name" />
+
+        <EditText
+            android:id="@+id/et_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/et_username"
+            android:layout_marginTop="43dp"
+            android:ems="10"
+            android:text="Nickname" />
+
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/et_nickname"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="Email" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_email"
+            android:text="Password" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/et_password"
+            android:background="@color/colorPrimary"
+            android:text="@string/register"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+</ScrollView>

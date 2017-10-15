@@ -1,0 +1,70 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
+
+    <!-- Dimens Elevation -->
+    <dimen name="view_elevation_micro">2dp</dimen>
+    <dimen name="view_elevation_nano">4dp</dimen>
+    <dimen name="view_elevation_small">8dp</dimen>
+    <dimen name="view_elevation">12dp</dimen>
+
+    <!-- Dimens Text Heading -->
+    <dimen name="heading_text_size">25sp</dimen>
+
+    <!-- Dimens Text Normal Text -->
+    <dimen name="text_size_nano">6sp</dimen>
+    <dimen name="text_size_xnano">8sp</dimen>
+    <dimen name="text_size_small">15sp</dimen>
+    <dimen name="text_size_medium">17sp</dimen>
+    <dimen name="text_size_normal">18sp</dimen>
+    <dimen name="text_size_large">21sp</dimen>
+    <dimen name="text_size_xlarge">30sp</dimen>
+
+    <!-- Dimens Padding -->
+    <dimen name="view_padding_nano">2dp</dimen>
+    <dimen name="view_padding_micro">4dp</dimen>
+    <dimen name="view_padding_small">8dp</dimen>
+    <dimen name="view_padding_medium">10dp</dimen>
+    <dimen name="view_padding_xmedium">12dp</dimen>
+    <dimen name="view_padding_xxmedium">16dp</dimen>
+    <dimen name="view_padding_large">20dp</dimen>
+    <dimen name="view_padding_priority_text">25dp</dimen>
+    <dimen name="view_padding_order_priority">40dp</dimen>
+    <dimen name="view_swipe_btn_padding">45dp</dimen>
+    <dimen name="view_padding_xlarge">50dp</dimen>
+
+    <!-- Dimens Margins -->
+    <dimen name="view_margin_nano">2dp</dimen>
+    <dimen name="view_margin_micro">4dp</dimen>
+    <dimen name="view_margin_micro_plus">6dp</dimen>
+    <dimen name="view_margin_xsmall">8dp</dimen>
+    <dimen name="view_margin_small">10dp</dimen>
+    <dimen name="view_margin_xmedium">15dp</dimen>
+    <dimen name="view_margin_medium">16dp</dimen>
+    <dimen name="view_margin_table">18dp</dimen>
+    <dimen name="view_margin_large">25dp</dimen>
+    <dimen name="view_margin_xlarge">40dp</dimen>
+
+    <!-- Dimens width -->
+    <dimen name="layout_width_view">10dp</dimen>
+    <dimen name="layout_tab_right_arrow_width">20dp</dimen>
+    <dimen name="layout_width_small">25dp</dimen>
+    <dimen name="layout_width_height">40dp</dimen>
+    <dimen name="layout_width_normal">50dp</dimen>
+    <dimen name="layout_width_xlarge">100dp</dimen>
+    <dimen name="layout_width_medium">150dp</dimen>
+    <dimen name="layout_width_xxlarge">200dp</dimen>
+    <dimen name="layout_width_xxxlarge">300dp</dimen>
+
+    <!-- Dimens height-->
+    <dimen name="view_height">2dp</dimen>
+    <dimen name="layout_text_view_height">30dp</dimen>
+    <dimen name="layout_height_swipe_button">52dp</dimen>
+    <dimen name="layout_height_normal">55dp</dimen>
+    <dimen name="layout_height_large">75dp</dimen>
+    <dimen name="layout_view_img_login_height">150dp</dimen>
+    <dimen name="layout_height_dialog">300dp</dimen>
+
+</resources>

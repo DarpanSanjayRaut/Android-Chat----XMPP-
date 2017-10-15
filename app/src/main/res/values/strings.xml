@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pet App</string>
+
+
+    <!--Xabber Connection Strings-->
+    <string name="account_state_registration">Registering</string>
+    <string name="account_state_authentication">Authorizing</string>
+    <string name="account_state_connected">Online</string>
+    <string name="account_state_connecting">Connecting</string>
+    <string name="account_state_disconnecting">Disconnecting</string>
+    <string name="account_state_offline">Offline</string>
+    <string name="account_state_waiting">Waiting to reconnect</string>
+    <string name="register">Register</string>
+
+    <string name="blank_field_msg">%1$s field can not be blank.</string>
+    <string name="string_length_validation">Please enter valid %1$s.</string>
+</resources>

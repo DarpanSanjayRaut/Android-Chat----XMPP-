@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lbl_contactname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/padding_small"
+        android:text="username "
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/lbl_presence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="end"
+        android:padding="@dimen/padding_small"
+        android:text="presence"
+        android:textColor="@color/red500"
+        android:textSize="8sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray200" />
+</LinearLayout>

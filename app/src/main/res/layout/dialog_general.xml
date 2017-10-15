@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:padding="@dimen/view_padding_micro"></LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_dialog_header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_margin_medium"
+            android:gravity="center"
+            android:paddingLeft="@dimen/view_padding_small"
+            android:paddingRight="@dimen/view_padding_small"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:id="@+id/container_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/view_margin_medium"
+            android:layout_marginRight="@dimen/view_margin_medium"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_margin_medium"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="Ok"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>
